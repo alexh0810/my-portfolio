@@ -27,24 +27,24 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-256142b41dec15e3db14.js"
+    "url": "webpack-runtime-fe85c11614bf87db5f7e.js"
   },
   {
-    "url": "framework-7c7fbfb49b0c7d901689.js"
+    "url": "framework-255c074ba4c47553fa20.js"
   },
   {
-    "url": "app-929639325adcbc675ded.js"
+    "url": "app-447ff21036450b7a0eee.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "444c1848b722cc6d0a651efa9c31ccbe"
+    "revision": "d151a7448c1ef19e673499c4e2a54228"
   },
   {
-    "url": "polyfill-91daeb5b06409547e20b.js"
+    "url": "polyfill-f092add24b96eaa343ee.js"
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "d096332618782c0e3ec049b84c312e1c"
+    "revision": "1a458a700c2b94f9d6c22081d21060ae"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
@@ -149,12 +149,12 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   lastNavigationRequest = event.request.url
 
   let { pathname } = new URL(event.request.url)
-  pathname = pathname.replace(new RegExp(`^/my-portfolio`), ``)
+  pathname = pathname.replace(new RegExp(`^`), ``)
 
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/my-portfolio/app-929639325adcbc675ded.js`))) {
+  if (!resources || !(await caches.match(`/app-447ff21036450b7a0eee.js`))) {
     return await fetch(event.request)
   }
 
@@ -167,7 +167,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
     }
   }
 
-  const offlineShell = `/my-portfolio/offline-plugin-app-shell-fallback/index.html`
+  const offlineShell = `/offline-plugin-app-shell-fallback/index.html`
   const offlineShellWithKey = workbox.precaching.getCacheKeyForURL(offlineShell)
   return await caches.match(offlineShellWithKey)
 })
