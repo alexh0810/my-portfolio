@@ -1,13 +1,13 @@
 module.exports = {
-  siteTitle: 'AlexPortfolio', // <title>
+  siteTitle: 'AlexH.', // <title>
   manifestName: 'alexportfolio',
-  manifestShortName: 'Landing', // max 12 characters
+  manifestShortName: 'portfolio', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#0a192f',
   manifestThemeColor: '#0a192f',
   manifestDisplay: 'standalone',
-  pathPrefix: "/",
-  manifestIcon: 'src/assets/img/website-icon.png',
+  pathPrefix: "/my-portfolio",
+  manifestIcon: 'src/assets/img/resume.png',
   heading: 'Alex Ho',
   subHeading: 'Full Stack Developer, Business Information Technology Student, Full Time Explorer of The Web',
 
