@@ -1,7 +1,16 @@
 .about-section {
   padding-top: 10rem;
-  background: linear-gradient(to bottom, $black 0%,#{fade-out($black, .1)} 75%,#{fade-out($black, .2)} 100%);
+  background: #0a192f;
   p {
     margin-bottom: 5rem;
+  }
+  .tech-section {
+    padding: 0 3rem 0 3rem;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(255 255 255 / 50%);
+    .tech-list {
+      text-align: left;
+    }
   }
 }

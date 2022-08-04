@@ -1,40 +1,31 @@
 module.exports = {
-  siteTitle: 'Gatsby Starter Grayscale', // <title>
-  manifestName: 'Grayscale',
+  siteTitle: 'AlexPortfolio', // <title>
+  manifestName: 'alexportfolio',
   manifestShortName: 'Landing', // max 12 characters
   manifestStartUrl: '/',
-  manifestBackgroundColor: '#663399',
-  manifestThemeColor: '#663399',
+  manifestBackgroundColor: '#0a192f',
+  manifestThemeColor: '#0a192f',
   manifestDisplay: 'standalone',
+  pathPrefix: "/",
   manifestIcon: 'src/assets/img/website-icon.png',
-  pathPrefix: `/gatsby-starter-grayscale/`, // This path is subpath of your hosting https://domain/portfolio
-  heading: 'Anubhav Srivastava',
-  subHeading: 'Full time Web Developer. Part time Open source contributor  ',
+  heading: 'Alex Ho',
+  subHeading: 'Full Stack Developer, Business Information Technology Student, Full Time Explorer of The Web',
 
   // social
   socialLinks: [
     {
       icon: 'fa-github',
       name: 'Github',
-      url: 'https://github.com/anubhavsrivastava',
+      url: 'https://github.com/alexh0810',
     },
     {
       icon: 'fa-linkedin-in',
       name: 'Linkedin',
-      url: 'https://linkedin.com/in/theanubhav/',
-    },
-    {
-      icon: 'fa-twitter',
-      name: 'Twitter',
-      url: 'https://twitter.com/onlyanubhav',
-    },
-    {
-      icon: 'fa-facebook-f',
-      name: 'Facebook',
-      url: 'https://facebook.com/theanubhav',
+      url: 'https://www.linkedin.com/in/alex-ho08/',
     },
   ],
-  email: 'anubhav.srivastava00@gmail.com',
-  phone: '000-00000',
-  address: '305 Del Sol, Sunnyvale, CA',
+
+  email: 'baohoan081097@gmail.com',
+  phone: '(+358) 465343146',
+  LinkedIn: 'https://www.linkedin.com/in/alex-ho08/',
 };
