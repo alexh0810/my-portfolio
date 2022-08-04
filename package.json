@@ -1,14 +1,14 @@
 {
-  "name": "gatsby-starter-grayscale",
+  "name": "alex-ho-portfolio",
   "version": "0.0.2",
-  "description": "Gatsby.js V4 starter template based on Grayscale by startbootstrap",
+  "description": "Alex's portfolio, built with Gatsby",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anubhavsrivastava/gatsby-starter-grayscale.git"
+    "url": "git+https://github.com/alexh0810/my-portfolio"
   },
   "author": {
-    "name": "Anubhav Srivastava",
-    "email": "anubhav.srivastava00@gmail.com"
+    "name": "Alex Ho",
+    "email": "baohoan081097@gmail.com"
   },
   "dependencies": {
     "gatsby": "^4.2.0",
@@ -46,6 +46,5 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/anubhavsrivastava/gatsby-starter-grayscale/issues"
-  },
-  "homepage": "https://github.com/anubhavsrivastava/gatsby-starter-grayscale#readme"
+  }
 }
