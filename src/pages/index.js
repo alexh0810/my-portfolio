@@ -85,7 +85,7 @@ const IndexPage = () => (
           <div className="col-xl-4 col-lg-5">
             <div className="featured-text text-center text-lg-left">
               <h4>Funshopping: A E-commerce Application</h4>
-              <p>
+              <p className="mb-0 text-white-50">
                 Funshopping is a frontend project built with React, TypeScript, Redux.
                 The application is a 'replicate' of a E-commerce website (implementing Platzi Fake Store API)
                 where users could browse for products and add them to the shopping cart. The application also allows admin users to perform tasks like: Delete or update products, view lists of active users.

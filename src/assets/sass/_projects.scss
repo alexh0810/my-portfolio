@@ -1,9 +1,10 @@
 .projects-section {
   background-color: #0a192f;
   padding: 10rem 0;
-  color: rgb(255 255 255 / 50%);
+  color: white;
   .featured-text {
     padding: 2rem;
+ 
     @media (min-width: 992px) {
       padding: 0 0 0 2rem;
       border-left: 0.5rem solid $primary;
@@ -16,7 +17,7 @@
       padding: 5rem;
       hr {
         border-color: $primary;
-        border-width: .25rem;
+        border-width: 0.25rem;
         width: 30%;
       }
     }

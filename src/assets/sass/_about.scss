@@ -7,6 +7,7 @@
   .tech-section {
     padding: 0 3rem 0 3rem;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     color: rgb(255 255 255 / 50%);
     .tech-list {
